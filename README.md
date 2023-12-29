@@ -1,5 +1,6 @@
 
-LIVE LINK : DM ME ON X (https://twitter.com/priyanshuYd_v) & INSTAGRAM (https://www.instagram.com/priyanshupower)
+LIVE LINK : DM ME ON X (https://twitter.com/priyanshuYd_v) 
+& INSTAGRAM (https://www.instagram.com/priyanshupower)
 
 FRONT PAGE : 
 
