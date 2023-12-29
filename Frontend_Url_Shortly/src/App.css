@@ -1,0 +1,160 @@
+
+body{
+  background: #d5d6dc;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+ 
+}
+
+.search{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p{
+  margin: 0;
+}
+h1{
+  font-size: 80px;
+  font-family: cursive;
+  margin: 0;
+}
+img{
+  height: 100px;
+  width: 100px;
+  width: auto;
+  transform: rotate(-20deg);
+  z-index: -1;
+}
+
+form{
+  display: flex;
+}
+
+.long-url{
+  width: 500px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid grey;
+  border-radius: 5px 0px 0px 5px;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+}
+
+.shorten-btn{
+  padding: 10px 20px;
+  background-color: rgb(69, 83, 241);
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+
+span{
+  color: red;
+  font-size: 20px;
+}
+
+.shortUrl{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  width: 500px;
+  gap: 15px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 12px 13px 20px -5px;
+}
+
+.short-url{
+  font-size: 20px;
+  padding: 5px 10px;
+  color: rgb(69, 83, 241);
+  border-radius: 5px;
+  border: 1px solid grey;
+  background: white;
+}
+
+.btn-row{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.search-btn{
+  background-color: rgb(69, 83, 241);
+  color: white; 
+  border-radius: 5px;
+  border: 2px solid rgb(69, 83, 241);
+  padding: 5px 15px; 
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.search-btn:hover{
+  background-color: white;
+  color: blue;
+}
+
+.copy{
+  background: green;
+  color: white; 
+  border-radius: 5px;
+  border: 2px solid green;
+  padding: 5px 15px; 
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.copy-img{
+  height: 17px;
+  transform: rotate(0deg);
+}
+
+.copy:hover{
+  background-color: white;
+  color: green;
+}
+
+.clipboard{ 
+  color: green;
+  margin-left: 10px;
+}
+
+.myUrl{
+  width: 180px;
+  padding: 9px 20px;
+  border-radius: 9px;
+  background-color: teal;
+  border: 2px solid teal;
+  color: white;
+  margin: 10px auto;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+.myUrl:hover{
+  background-color: #fff;
+  color: teal;
+}
+
+.invalid{
+  font-size: 30px;
+  margin-top: 40px;
+}
+
